@@ -71,7 +71,7 @@ public class TestBot extends TelegramLongPollingBot {
                     case "News":
                         adminServicee.news(update, chatId);
                         break;
-                    case "2005":
+                    case "2004":
                         execute(adminServicee.buttons(update, chatId));
                         break;
                     case "/help":
